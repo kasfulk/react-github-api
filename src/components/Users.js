@@ -1,10 +1,4 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
-/* eslint-disable array-callback-return */
 export const Users = ({ data }) => {
-    data.map((value, index) => {
-        console.log(index, value.login)
-    })
-
     return (
         <div className="test">
             {data.map(data => (
@@ -25,6 +19,4 @@ export const Users = ({ data }) => {
             ))}
         </div>
     )
-
-
 }
